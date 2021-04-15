@@ -309,6 +309,15 @@
 
     </GridLayout>
 
+    <TextView
+
+        android:textAlignment="center"
+        android:text="Version 1.0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+    </TextView>
 
     </LinearLayout>
 
