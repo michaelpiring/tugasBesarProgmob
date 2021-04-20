@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         cardView = findViewById(R.id.infoprotokol);
+        //cardView = findViewById(R.id.infogejala);
 
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -25,5 +26,15 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+    /*
+        cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(), InfoProtokol.class);
+                startActivity(intent);
+            }
+        });
+
+     */
     }
 }
