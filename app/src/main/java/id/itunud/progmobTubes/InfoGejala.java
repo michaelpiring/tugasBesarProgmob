@@ -6,7 +6,9 @@ import androidx.cardview.widget.CardView;
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.ImageView;
+import android.widget.MediaController;
 import android.widget.TextView;
+import android.widget.VideoView;
 import android.widget.ViewFlipper;
 
 public class InfoGejala extends AppCompatActivity {
@@ -23,8 +25,7 @@ public class InfoGejala extends AppCompatActivity {
                 R.drawable.pictgejala2,
                 R.drawable.pictgejala3,
                 R.drawable.pictgejala4,
-                R.drawable.pictgejala5,
-                R.drawable.pictgejala6};
+                R.drawable.pictgejala5};
 
         vf_infogejala = findViewById(R.id.vf_infogejala);
 
@@ -34,6 +35,13 @@ public class InfoGejala extends AppCompatActivity {
             flipperImages(image);
 
         }
+
+        VideoView videoView = findViewById(R.id.vvgejala);
+        videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.gejalavideo);
+        MediaController mediaController = new MediaController(this);
+        mediaController.setAnchorView(videoView);
+        videoView.setMediaController(mediaController);
+
 
     }
 
