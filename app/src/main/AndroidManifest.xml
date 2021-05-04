@@ -9,7 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.BantuanInformasiCovid19">
-        <activity android:name=".InfoProtokol"></activity>
+        <activity android:name=".pendahuluan"></activity>
+        <activity android:name=".InfoProtokol" />
+        <activity android:name=".InfoGejala" />
+        <activity android:name=".InformasiProtokol" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

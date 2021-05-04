@@ -41,7 +41,7 @@
             </TextView>
 
             <ImageView
-                android:src="@drawable/protokol"
+                android:src="@drawable/pendahuluan"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_alignParentRight="true">

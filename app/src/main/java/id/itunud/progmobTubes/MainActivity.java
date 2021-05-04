@@ -59,7 +59,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.pendahuluan:
-
+                Intent intentpendahuluan = new Intent(MainActivity.this, pendahuluan.class);
+                startActivity(intentpendahuluan);
                 break;
 
             case R.id.infogejala:
@@ -73,7 +74,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.infokarantina:
-
+                Intent intentkarantina = new Intent(MainActivity.this, InfoProtokol.class);
+                startActivity(intentkarantina);
                 break;
 
             case R.id.infoswab:
