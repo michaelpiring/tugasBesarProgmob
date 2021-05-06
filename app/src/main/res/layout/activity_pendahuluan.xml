@@ -70,35 +70,6 @@
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
 
-                <FrameLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="6dp"
-                    android:layout_below="@+id/vgaris1">
-
-                    <VideoView
-                        android:id="@+id/vvprotokol"
-                        android:layout_width="match_parent"
-                        android:layout_height="200dp">
-                    </VideoView>
-
-                </FrameLayout>
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
-
-        <androidx.cardview.widget.CardView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            app:cardElevation="6dp"
-            app:cardCornerRadius="12dp"
-            android:layout_margin="12dp">
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
@@ -181,10 +152,11 @@
 
                                 <ImageView
                                     android:layout_gravity="center"
+
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol2">
+                                    android:src="@drawable/covcov">
                                 </ImageView>
 
                                 <LinearLayout
@@ -228,10 +200,11 @@
 
                                 <ImageView
                                     android:layout_gravity="center"
+                                    android:scaleType="centerCrop"
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol3">
+                                    android:src="@drawable/covspread">
                                 </ImageView>
 
                                 <LinearLayout
@@ -275,10 +248,11 @@
 
                                 <ImageView
                                     android:layout_gravity="center"
+                                    android:scaleType="centerCrop"
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol6">
+                                    android:src="@drawable/covair">
                                 </ImageView>
 
                                 <LinearLayout
@@ -326,7 +300,7 @@
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol7">
+                                    android:src="@drawable/covstuff">
                                 </ImageView>
 
                                 <LinearLayout
@@ -370,6 +344,7 @@
 
                                 <ImageView
                                     android:layout_gravity="center"
+                                    android:scaleType="centerCrop"
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
