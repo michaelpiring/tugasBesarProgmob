@@ -83,7 +83,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.callcenter:
-
+                Intent intentbantuan = new Intent(MainActivity.this, BantuanInformasi.class);
+                startActivity(intentbantuan);
                 break;
 
 

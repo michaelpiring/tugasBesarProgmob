@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".BantuanInformasi">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_margin="12dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/black"
+                    android:text="Kontak Layanan">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardElevation="6dp"
+                app:cardCornerRadius="12dp"
+                android:layout_margin="12dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:text="Informasi tentang media KIE atau situasi perkembangan COVID-19, dapat diakses melalui:
+                    \n \t\t\t 1. Halo Kemenkes : 1500567
+                    \n \t\t\t 2. Hotline Emergency Operation Center (EOC): 119 atau (021) 5210411 atau 081212123119
+                    \n \t\t\t 3. Twitter : @KemenkesRI
+                    \n \t\t\t 4. Facebook : @KementerianKesehatanRI
+                    \n \t\t\t 5. Instagram: @kemenkes_ri
+                    \n \t\t\t 6. Website : www.who.int, www.infeksiemerging.kemkes.go.id,sehatnegeriku.kemkes.go.id">
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
