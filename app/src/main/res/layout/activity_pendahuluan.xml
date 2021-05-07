@@ -343,13 +343,12 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
-                                    android:layout_gravity="center"
-                                    android:scaleType="centerCrop"
-                                    android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol7">
-                                </ImageView>
+                                    android:layout_gravity="center"
+                                    android:layout_margin="5dp"
+                                    android:scaleType="centerCrop"
+                                    android:src="@drawable/protokol7"></ImageView>
 
                                 <LinearLayout
                                     android:layout_width="match_parent"
@@ -395,7 +394,7 @@
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol7">
+                                    android:src="@drawable/covyoungnold">
                                 </ImageView>
 
                                 <LinearLayout
@@ -439,10 +438,11 @@
 
                                 <ImageView
                                     android:layout_gravity="center"
+                                    android:scaleType="centerCrop"
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol7">
+                                    android:src="@drawable/covincubate">
                                 </ImageView>
 
                                 <LinearLayout
@@ -489,7 +489,7 @@
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol7">
+                                    android:src="@drawable/covidglobal">
                                 </ImageView>
 
                                 <LinearLayout
@@ -505,7 +505,16 @@
                                         android:textColor="@color/black"
                                         android:layout_marginTop="5dp"
                                         android:textSize="10sp"
-                                        android:text="WHO secara ketat memantau situasi terkini dan secara teratur menerbitkan informasi tentang penyakit ini. Informasi lebih lanjut mengenai penyakit ini dapat dilihat melalui:\nhttps://www.who.int/emergencies/diseases/novel-coronavirus-2019\natau\nhttp://infeksiemerging.kemkes.go.id/category/situasi-infeksiemerging/info-corona-virus/">
+                                        android:text="WHO secara ketat memantau situasi terkini dan secara teratur menerbitkan informasi tentang penyakit ini./nInformasi lebih lanjut mengenai penyakit ini dapat dilihat melalui:">
+                                    </TextView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:autoLink="web"
+                                        android:textColor="#0000FF"
+                                        android:textSize="10sp"
+                                        android:text="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">
                                     </TextView>
                                 </LinearLayout>
                             </LinearLayout>
@@ -532,11 +541,13 @@
                                 android:orientation="horizontal">
 
                                 <ImageView
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginBottom="10dp"
                                     android:layout_gravity="center"
                                     android:layout_margin="5dp"
                                     android:layout_width="150dp"
                                     android:layout_height="match_parent"
-                                    android:src="@drawable/protokol7">
+                                    android:src="@drawable/covindo">
                                 </ImageView>
 
                                 <LinearLayout
@@ -552,7 +563,16 @@
                                         android:textColor="@color/black"
                                         android:layout_marginTop="5dp"
                                         android:textSize="10sp"
-                                        android:text="Situasi perkembangan penyakit COVID-19 di Indonesia dapat dipantau melalui laman website \nhttp://infeksiemerging.kemkes.go.id">
+                                        android:text="Situasi perkembangan penyakit COVID-19 di Indonesia dapat dipantau melalui laman website">
+                                    </TextView>
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:autoLink="web"
+                                        android:textSize="10sp"
+                                        android:textColor="#0000FF"
+                                        android:text="http://infeksiemerging.kemkes.go.id">
                                     </TextView>
                                 </LinearLayout>
                             </LinearLayout>
