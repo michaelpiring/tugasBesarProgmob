@@ -34,6 +34,7 @@
                     android:layout_margin="12dp"
                     android:textSize="20sp"
                     android:textColor="@color/black"
+                    android:textStyle="bold"
                     android:text="Frequently Asked Question">
                 </TextView>
 
@@ -46,21 +47,94 @@
                 app:cardCornerRadius="12dp"
                 android:layout_margin="12dp">
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:textColor="@color/black"
-                    android:text="Virus corona yang menginfeksi manusia akan menimbulkan
-                    \n beberapa gejala yang mirip dengan flu.
-                    \n Secara umum, Gejala Virus Corona antaralain:
-                    \n \t\t\t 1. Batuk kering
-                    \n \t\t\t 2. Sesak Napas
-                    \n \t\t\t 3. Demam (suhu tubuh diatas 38°C)
-                    \n \t\t\t 4. Indra Penciuman Berkurang
-                    \n \t\t\t 5. Sakit Tenggorokan
-                    \n Selain gejala di atas, ada beberapa gejala lain yang jarang terjadi, tetapi juga bisa muncul pada infeksi COVID-19, yaitu
-                    \n mudah lelah, nyeri otot, mual, diare, mengigil, dsb. Gejala-gejala tersebut dapat hilang  atau semakin memberat. ">
-                </TextView>
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="1.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Virus virus ini dapat Menimbulkan">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n2.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Virus virus ini dapat Menimbulkan">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n3.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Virus virus ini dapat Menimbulkan">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n4.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Virus virus ini dapat Menimbulkan">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n5.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Virus virus ini dapat Menimbulkan">
+                    </TextView>
+
+                </LinearLayout>
+
+
 
             </androidx.cardview.widget.CardView>
         </LinearLayout>
