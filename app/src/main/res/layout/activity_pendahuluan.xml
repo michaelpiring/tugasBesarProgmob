@@ -24,26 +24,20 @@
                 android:id="@+id/namaApp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:textSize="12sp"
-                android:text="Pendahuluan">
-
-            </TextView>
-
-            <TextView
-                android:layout_below="@+id/namaApp"
                 android:layout_alignParentLeft="true"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_marginLeft="0dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Novel \nCoronavirus"
                 android:textColor="@color/black"
-                android:textSize="12sp"
-                android:text="COVID-19">
-            </TextView>
+                android:textSize="15sp"></TextView>
 
             <ImageView
                 android:src="@drawable/pendahuluan"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_alignParentRight="true">
             </ImageView>
 
