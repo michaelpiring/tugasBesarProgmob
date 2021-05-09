@@ -13,6 +13,7 @@
         android:layout_height="wrap_content">
 
         <RelativeLayout
+            android:id="@+id/kotakatas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
@@ -23,25 +24,20 @@
                 android:id="@+id/namaApp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:textColor="@color/black"
-                android:textSize="12sp"
-                android:text="Bantuan &amp; Informasi">
-            </TextView>
-
-            <TextView
-                android:layout_below="@+id/namaApp"
                 android:layout_alignParentLeft="true"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Aplikasi Bantuan &amp; Informasi\nCOVID-19"
                 android:textColor="@color/black"
-                android:textSize="12sp"
-                android:text="COVID-19">
-            </TextView>
+                android:textSize="15sp"></TextView>
 
             <ImageView
                 android:src="@drawable/pendahuluan"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
                 android:layout_alignParentRight="true">
             </ImageView>
 
@@ -71,7 +67,7 @@
                 android:padding="16dp"
                 android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="150dp">
 
                 <ImageView
                     android:src="@drawable/pendahuluan"
@@ -83,7 +79,7 @@
                     android:layout_marginTop="12dp"
                     android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:text="Pendahuluan"
+                    android:text="Novel Covid-19"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -147,10 +143,10 @@
                 android:padding="16dp"
                 android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="150dp">
 
                 <ImageView
-                    android:src="@drawable/protokol"
+                    android:src="@drawable/covprotokol"
                     android:layout_width="80dp"
                     android:layout_height="80dp">
                 </ImageView>
@@ -158,8 +154,8 @@
                 <TextView
                     android:layout_marginTop="12dp"
                     android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:text="Informasi"
+                    android:textSize="15sp"
+                    android:text="Informasi Protokol"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
 
@@ -168,7 +164,7 @@
                 <TextView
                     android:layout_marginTop="12dp"
                     android:textColor="@color/black"
-                    android:textSize="18sp"
+                    android:textSize="15sp"
                     android:text="Protokol"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content">
@@ -220,44 +216,44 @@
         <androidx.cardview.widget.CardView
             android:id="@+id/infoswab"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
+            android:layout_height="90dp"
             android:layout_rowWeight="1"
-            app:cardElevation="6dp"
-            app:cardCornerRadius="12dp"
+            android:layout_columnWeight="1"
             android:layout_margin="12dp"
-            >
+            app:cardCornerRadius="12dp"
+            app:cardElevation="6dp">
 
             <LinearLayout
-                android:orientation="vertical"
-                android:padding="16dp"
-                android:gravity="center"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:padding="16dp">
 
                 <ImageView
-                    android:src="@drawable/swab"
                     android:layout_width="80dp"
-                    android:layout_height="80dp">
-                </ImageView>
+                    android:layout_height="80dp"
+                    android:src="@drawable/swab"></ImageView>
 
                 <TextView
-                    android:layout_marginTop="12dp"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:text="Informasi Swab"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:gravity="center_horizontal"
+                    android:text="Informasi Swab \nRapid Test"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18sp">
 
                 </TextView>
 
                 <TextView
-                    android:layout_marginTop="12dp"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:text="&amp; Rapid Test"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="12dp"
+                    android:text="&amp; Rapid Test"
+                    android:textColor="@color/black"
+                    android:textSize="18sp">
 
                 </TextView>
 
@@ -293,21 +289,14 @@
                     android:layout_marginTop="12dp"
                     android:textColor="@color/black"
                     android:textSize="18sp"
-                    android:text="Bantuan"
+                    android:textAlignment="center"
+                    android:text="Bantuan \n&amp; Call Centre"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
 
                 </TextView>
 
-                <TextView
-                    android:layout_marginTop="12dp"
-                    android:textColor="@color/black"
-                    android:textSize="18sp"
-                    android:text="&amp; Call Centre"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content">
-
-                </TextView>
 
             </LinearLayout>
 
