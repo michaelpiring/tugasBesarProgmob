@@ -33,7 +33,7 @@
                 android:textSize="15sp"></TextView>
 
             <ImageView
-                android:src="@drawable/pendahuluan"
+                android:src="@drawable/covprotokol"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_marginTop="5dp"
@@ -62,17 +62,20 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:orientation="vertical"
+                android:layout_margin="3dp">
 
                 <FrameLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:gravity="center"
                     android:layout_marginTop="6dp"
                     android:layout_below="@+id/vgaris1">
 
                     <VideoView
                         android:id="@+id/vvprotokol"
                         android:layout_width="match_parent"
+                        android:gravity="center"
                         android:layout_height="200dp">
                     </VideoView>
 
@@ -91,6 +94,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="3dp"
                 android:orientation="vertical">
                 <TextView
                     android:layout_width="match_parent"
@@ -102,15 +106,19 @@
                     android:text="Protokol Kesehatan \n Covid-19">
                 </TextView>
                 <LinearLayout
+
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginBottom="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
                     android:orientation="horizontal">
 
                     <ImageView
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:layout_weight="1"
+                        android:layout_marginLeft="4dp"
                         android:gravity="center"
                         android:src="@drawable/protokol1">
 
@@ -119,6 +127,7 @@
                         android:layout_width="0dp"
                         android:layout_height="200dp"
                         android:layout_weight="1"
+                        android:layout_marginRight="4dp"
                         android:gravity="center"
                         android:src="@drawable/protokol8">
 
@@ -135,6 +144,7 @@
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
+                        android:layout_margin="3dp"
                         android:orientation="vertical">
 
                         <TextView
@@ -153,13 +163,15 @@
                             android:layout_marginBottom="15dp"
                             android:gravity="center"
                             android:textSize="10sp"
-                            android:textColor="@color/black"
+
+                            android:textColor="#990000"
                             android:text="(Masker, Mencuci Tangan, Menjaga Jarak, Tidak Berkerumunan)">
                         </TextView>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
                             android:orientation="vertical">
 
                             <TextView
@@ -204,6 +216,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
                             android:orientation="vertical">
 
                             <TextView
@@ -240,7 +253,7 @@
                                         android:textColor="@color/black"
                                         android:layout_marginTop="5dp"
                                         android:textSize="10sp"
-                                        android:text=" Virus corona yang menyebar melalui droplet (tetesan liur) bisa bertahan beberapa lama di permukaan benda. Karena itu, menucici tangan menggunakan sabun selama minimal 20 detik penting untuk dilakukan. Selain sabun, mencuci tangan juga dapat dilakukan dengan menggunakan hand sanitizer dengan kandungan alkohol minimal 60 persen.">
+                                        android:text="Virus corona yang menyebar melalui droplet (tetesan liur) bisa bertahan beberapa lama di permukaan benda. Karena itu, menucici tangan menggunakan sabun selama minimal 20 detik penting untuk dilakukan. Selain sabun, mencuci tangan juga dapat dilakukan dengan menggunakan hand sanitizer dengan kandungan alkohol minimal 60 persen.">
                                     </TextView>
                                 </LinearLayout>
                             </LinearLayout>
@@ -249,6 +262,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
                             android:orientation="vertical">
 
                             <TextView
@@ -295,6 +309,7 @@
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
+                            android:layout_margin="3dp"
                             android:orientation="vertical">
 
                             <TextView
@@ -364,7 +379,7 @@
             android:layout_marginBottom="25dp"
             android:textSize="6sp"
             android:gravity="center"
-            android:text="Aplikasi Bantuan Informasi Covid-19\nOleh kelompok 6">
+            android:text="Aplikasi Bantuan Informasi Covid-19\nOleh kelompok 6\n\n\nVersion 1.0">
 
         </TextView>
 

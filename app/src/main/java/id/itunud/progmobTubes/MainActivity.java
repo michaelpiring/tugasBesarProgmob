@@ -33,29 +33,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         CardView cvcallcenter = findViewById(R.id.callcenter);
         cvcallcenter.setOnClickListener(this);
 
-        /*cardView = findViewById(R.id.infoprotokol);
-        //cardView = findViewById(R.id.infogejala);
-
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), InfoProtokol.class);
-                startActivity(intent);
-            }
-        });*/
-    /*
-        cardView.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), InfoProtokol.class);
-                startActivity(intent);
-            }
-        });
-
-     */
     }
 
     @Override
+    //intent activity sesuai dengan kondisi
     public void onClick(View v) {
         switch (v.getId()){
             case R.id.pendahuluan:
@@ -79,15 +60,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
             case R.id.infoswab:
-
+                Intent intentswab = new Intent(MainActivity.this, InfoSwab.class);
+                startActivity(intentswab);
                 break;
 
             case R.id.callcenter:
                 Intent intentbantuan = new Intent(MainActivity.this, BantuanInformasi.class);
                 startActivity(intentbantuan);
                 break;
-
-
 
         }
 

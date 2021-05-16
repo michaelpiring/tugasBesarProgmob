@@ -20,6 +20,7 @@ public class InfoGejala extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_info_gejala);
 
+        //memasukkan image kearray
         int images[]={
                 R.drawable.pictgejala1,
                 R.drawable.pictgejala2,
@@ -29,13 +30,13 @@ public class InfoGejala extends AppCompatActivity {
 
         vf_infogejala = findViewById(R.id.vf_infogejala);
 
-        //loop images
-
+        //loop images untuk ditampilkan di viewflipper
         for(int image : images){
             flipperImages(image);
 
         }
 
+        //menampilkan video gejala dan media controlnya
         VideoView videoView = findViewById(R.id.vvgejala);
         videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.gejalavideo);
         MediaController mediaController = new MediaController(this);
@@ -45,12 +46,13 @@ public class InfoGejala extends AppCompatActivity {
 
     }
 
+    //fungsi untuk membuat slide show agar gambar yg tempatkan di viewvlipper dapat bergerak otomatis
     public void flipperImages(int image){
         ImageView imageView = new ImageView(this);
         imageView.setBackgroundResource (image);
 
         vf_infogejala.addView(imageView);
-        vf_infogejala.setFlipInterval(1000);
+        vf_infogejala.setFlipInterval(7000);
         vf_infogejala.setAutoStart(true);
         vf_infogejala.setInAnimation(this, android.R.anim.slide_in_left);
         vf_infogejala.setOutAnimation(this, android.R.anim.slide_out_right);

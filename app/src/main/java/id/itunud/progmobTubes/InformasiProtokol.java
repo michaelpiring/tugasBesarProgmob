@@ -17,6 +17,7 @@ public class InformasiProtokol extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_informasi_protokol);
 
+        //menampilkan video informasi protokol dan media controllernya
         VideoView videoView = findViewById(R.id.vvprotokol);
         videoView.setVideoPath("android.resource://"+getPackageName()+"/"+R.raw.protokolvideo);
         MediaController mediaController = new MediaController(this);

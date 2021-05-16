@@ -21,6 +21,7 @@
         <activity android:name=".InfoProtokol" />
         <activity android:name=".InfoGejala" />
         <activity android:name=".InformasiProtokol" />
+        <activity android:name=".InfoSwab"/>
         <activity
             android:name=".MainActivity"
             android:label="Home" />

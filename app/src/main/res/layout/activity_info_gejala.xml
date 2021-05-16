@@ -25,20 +25,26 @@
                 android:id="@+id/namaApp"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_alignParentLeft="true"
-                android:layout_marginLeft="2dp"
-                android:layout_marginTop="15dp"
-                android:layout_marginBottom="15dp"
-                android:text="Informasi Gejala\n COVID-19"
                 android:textColor="@color/black"
-                android:textSize="15sp"></TextView>
+                android:textSize="12sp"
+                android:text="Informasi Gejala">
+
+            </TextView>
+
+            <TextView
+                android:layout_below="@+id/namaApp"
+                android:layout_alignParentLeft="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textColor="@color/black"
+                android:textSize="12sp"
+                android:text="COVID-19">
+            </TextView>
 
             <ImageView
-                android:src="@drawable/pendahuluan"
+                android:src="@drawable/gejala2"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
                 android:layout_alignParentRight="true">
             </ImageView>
 
@@ -61,11 +67,13 @@
             android:layout_margin="12dp">
 
             <ViewFlipper
+                android:layout_margin="3dp"
+                android:layout_gravity="center"
                 android:id="@+id/vf_infogejala"
                 android:layout_width="386dp"
                 android:layout_height="150dp"
                 android:layout_centerHorizontal="true"
-                android:layout_marginBottom="10dp">
+                android:layout_marginBottom="7dp">
             </ViewFlipper>
 
         </androidx.cardview.widget.CardView>
@@ -105,16 +113,16 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textColor="@color/black"
-                    android:text="Virus corona yang menginfeksi manusia akan menimbulkan
-                    \n beberapa gejala yang mirip dengan flu.
+                    android:layout_margin="3dp"
+                    android:text="Virus corona yang menginfeksi manusia akan menimbulkan beberapa gejala yang mirip dengan flu.
                     \n Secara umum, Gejala Virus Corona antaralain:
                     \n \t\t\t 1. Batuk kering
                     \n \t\t\t 2. Sesak Napas
                     \n \t\t\t 3. Demam (suhu tubuh diatas 38°C)
                     \n \t\t\t 4. Indra Penciuman Berkurang
                     \n \t\t\t 5. Sakit Tenggorokan
-                    \n Selain gejala di atas, ada beberapa gejala lain yang jarang terjadi, tetapi juga bisa muncul pada infeksi COVID-19, yaitu
-                    \n mudah lelah, nyeri otot, mual, diare, mengigil, dsb. Gejala-gejala tersebut dapat hilang  atau semakin memberat. ">
+                    \nSelain gejala di atas, ada beberapa gejala lain yang jarang terjadi, tetapi juga bisa muncul pada infeksi COVID-19, yaitu
+                    \nmudah lelah, nyeri otot, mual, diare, mengigil, dsb. Gejala-gejala tersebut dapat hilang  atau semakin memberat. ">
                 </TextView>
 
             </androidx.cardview.widget.CardView>
@@ -131,6 +139,7 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_margin="3dp"
                 android:orientation="vertical">
                 <TextView
                     android:id="@+id/tvvideogejala"
@@ -144,6 +153,7 @@
                 </TextView>
 
                 <FrameLayout
+                    android:layout_gravity="center"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="6dp"
@@ -152,8 +162,9 @@
                     <VideoView
                         android:id="@+id/vvgejala"
                         android:layout_width="match_parent"
+                        android:layout_gravity="center"
                         android:layout_height="200dp">
-                        </VideoView>
+                    </VideoView>
                 </FrameLayout>
 
             </LinearLayout>
@@ -178,7 +189,7 @@
             android:layout_marginBottom="25dp"
             android:textSize="6sp"
             android:gravity="center"
-            android:text="Aplikasi Bantuan Informasi Covid-19\nOleh kelompok 6">
+            android:text="Aplikasi Bantuan Informasi Covid-19\nOleh kelompok 6\n\n\nVersion 1.0">
 
         </TextView>
 
