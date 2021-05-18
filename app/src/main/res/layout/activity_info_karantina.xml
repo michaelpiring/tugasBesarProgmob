@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoProtokol"
+    android:background="#f5f5f5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <TextView
+            android:id="@+id/namaApp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="Informasi Karantina">
+
+        </TextView>
+
+        <TextView
+            android:layout_below="@+id/namaApp"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:textSize="12sp"
+            android:text="COVID-19">
+        </TextView>
+
+        <ImageView
+            android:src="@drawable/quarantine"
+            android:layout_width="62dp"
+            android:layout_height="62dp"
+            android:layout_alignParentRight="true">
+        </ImageView>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/black"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_marginTop="10dp">
+    </View>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="12dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="12dp"
+                    android:gravity="center"
+                    android:text="Panduan Karantina \n COVID-19"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"></TextView>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="120dp"
+                app:cardCornerRadius="25dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Mengapa Karantina?"
+                    android:textColor="#000"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="30dp"
+                    android:justificationMode="inter_word"
+                    android:text="Salah satu upaya yang dilakukan untuk mencegah penyebaran COVID-19 adalah dengan melakukan karantina. Dengan melakukan karantina, virus tidak akan menyebar dan memudahkan proses penyembuhan. Karantina dilakukan di rumah dengan memperhatikan beberapa hal sebelum melaksanakan karantina."
+                    android:textColor="#000">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="40dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </ImageView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="270dp"
+                app:cardCornerRadius="25dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="30dp"
+                    android:justificationMode="inter_word"
+                    android:paddingLeft="30dp"
+                    android:paddingTop="20dp"
+                    android:paddingRight="30dp"
+                    android:text="Karantina biasanya dilaksanakan di rumah masing-masing. Dalam menjalankan karantina perlu diperhatikan beberapa kondisi dalam rumah, seperti jarak tiap orang, kondisi tiap ruangan, suhu, intensitas cahaya, kondisi perabot, interaksi dan relasi antar orang, dan beberapa faktor lain."
+                    android:textColor="#000">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                app:cardCornerRadius="25dp"
+                android:layout_marginTop="470dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Tujuan Karantina"
+                    android:textColor="#000"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="30dp"
+                    android:justificationMode="inter_word"
+                    android:text="Karantina dilakukan dengan tujuan mengurangi tingkat penyebaran virus corona dengan melakukan tindak isolasi di suatu tempat. Isolasi dilakukan dengan meminimalisir kontak dengan lingkungan di luar dan meminimalisir interaksi dengan lingkungan luar."
+                    android:textColor="#000">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="680dp"
+                android:src="@drawable/karantina1">
+
+            </ImageView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                app:cardCornerRadius="25dp"
+                android:layout_marginTop="860dp"
+                android:layout_marginRight="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:paddingBottom="30dp"
+                    android:text="Lokasi Karantina"
+                    android:textColor="#000"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginTop="50dp"
+                    android:layout_marginRight="30dp"
+                    android:justificationMode="inter_word"
+                    android:text="Karantina umumnya dilakukan secara mandiri di rumah masing-masing ataupun tempat lain yang memungkinkan untuk melakukan karantina. Karantina dilakukan di tempat yang memenuhi beberapa kriteria, diantaranya tidak terdapat banyak orang, sedikit aktivitas yang memerlukan interaksi dengan orang lain, suhu dan temperatur yang tidak mendukung penyebaran virus corona, dan ."
+                    android:textColor="#000">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:layout_width="350dp"
+                android:layout_height="150dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="1120dp"
+                android:src="@drawable/karantina2">
+
+            </ImageView>
+
+            <!--        <androidx.cardview.widget.CardView-->
+            <!--            android:layout_marginTop="120dp"-->
+            <!--            android:layout_width="match_parent"-->
+            <!--            android:layout_height="wrap_content"-->
+            <!--            android:layout_marginLeft="30dp"-->
+            <!--            android:layout_marginRight="30dp">-->
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Panduan Karantina COVID-19"-->
+            <!--                android:gravity="center"-->
+            <!--                android:textColor="#000"-->
+            <!--                android:textSize="20sp">-->
+
+            <!--            </TextView>-->
+
+            <!--            <TextView-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:layout_height="wrap_content"-->
+            <!--                android:text="Salah satu upaya yang dilakukan untuk mencegah penyebaran COVID-19 adalah dengan melakukan karantina. Dengan melakukan karantina, virus tidak akan menyebar dan memudahkan proses penyembuhan. Karantina dilakukan di rumah dengan memperhatikan beberapa hal sebelum melaksanakan karantina."-->
+            <!--                android:textColor="#000"-->
+            <!--                android:justificationMode="inter_word"-->
+            <!--                android:layout_marginLeft="30dp"-->
+            <!--                android:layout_marginTop="50dp"-->
+            <!--                android:layout_marginRight="30dp">-->
+
+            <!--            </TextView>-->
+
+            <!--        </androidx.cardview.widget.CardView>-->
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="1300dp"
+                app:cardCornerRadius="25dp"
+                android:layout_marginRight="30dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Hal-hal yang Perlu Diperhatikan"
+                    android:textColor="#000"
+                    android:textSize="20sp">
+
+                </TextView>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginTop="50dp"
+                    android:paddingBottom="30dp"
+                    android:layout_marginRight="30dp"
+                    android:justificationMode="inter_word"
+                    android:text="Dalam melaksanakan karantina, pastikan kondisi sekitar memungkinkanuntuk melakukan karantina. Adapun yang dimaksud memungkinkan adalah memenuhi protokol kesehatan, dan tidak pula melanggar protokol. Karantina harus memenuhi protokol kesehatan yang berlaku dan apabila hal ini dilanggar maka karantina yang bersifat mencegah penyebaran malah berbalik dan menambah kasus positif COVID-19.."
+                    android:textColor="#000">
+
+                </TextView>
+
+            </androidx.cardview.widget.CardView>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</ScrollView>
