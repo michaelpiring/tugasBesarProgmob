@@ -35,7 +35,7 @@
             </TextView>
 
             <ImageView
-                android:src="@drawable/swab"
+                android:src="@drawable/applogomini"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_marginTop="5dp"

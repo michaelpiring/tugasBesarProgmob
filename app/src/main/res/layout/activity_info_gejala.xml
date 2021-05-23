@@ -42,7 +42,7 @@
             </TextView>
 
             <ImageView
-                android:src="@drawable/gejala2"
+                android:src="@drawable/applogomini"
                 android:layout_width="62dp"
                 android:layout_height="62dp"
                 android:layout_alignParentRight="true">
