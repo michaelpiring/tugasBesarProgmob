@@ -307,6 +307,28 @@
             </androidx.cardview.widget.CardView>
 
         </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/black"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp">
+        </View>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:layout_marginBottom="25dp"
+            android:textSize="6sp"
+            android:gravity="center"
+            android:text="Aplikasi Bantuan Informasi Covid-19\nOleh kelompok 6\n\n\nVersion 1.0">
+
+        </TextView>
+
     </LinearLayout>
 
 </ScrollView>

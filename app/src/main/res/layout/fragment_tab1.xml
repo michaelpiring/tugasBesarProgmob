@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<ScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -40,6 +40,7 @@
 
             </androidx.cardview.widget.CardView>
 
+
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -58,30 +59,14 @@
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         android:textStyle="bold"
-                        android:text="1.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                        android:text="1.\tApakah sudah ada vaksin atau obat untuk COVID-19?">
                     </TextView>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="Virus virus ini dapat Menimbulkan">
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:text="\n2.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Virus virus ini dapat Menimbulkan">
+                        android:text="Vaksin untuk mencegah infeksi COVID-19 sedang dalam tahap pengembangan/uji coba.">
                     </TextView>
 
                     <TextView
@@ -90,30 +75,14 @@
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         android:textStyle="bold"
-                        android:text="\n3.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                        android:text="\n2.\tSepertinya saya berinteraksi dengan orang terjangkit COVID-19, apa yang harus saya lakukan?">
                     </TextView>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="Virus virus ini dapat Menimbulkan">
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:textSize="15dp"
-                        android:textStyle="bold"
-                        android:text="\n4.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
-                    </TextView>
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/black"
-                        android:text="Virus virus ini dapat Menimbulkan">
+                        android:text="Silakan melakukan uji risiko mandiri gejala Covid-19. Jika timbul gejala mirip Covid-19, segera hubungi Dinas Kesehatan tanggap COVID-19 di daerah mu untuk mendapat arahan lebih lanjut.">
                     </TextView>
 
                     <TextView
@@ -122,15 +91,125 @@
                         android:textColor="@color/black"
                         android:textSize="15dp"
                         android:textStyle="bold"
-                        android:text="\n5.\tVirus corona yang menginfeksi manusia akan menimbulkan?">
+                        android:text="\n3.\tBagaimana mengantisipasi penularan COVID-19?">
                     </TextView>
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:textColor="@color/black"
-                        android:text="Virus virus ini dapat Menimbulkan">
+                        android:text="Tindakan Pencegahan penularan :\n \t\t a. Memakai masker \n \t\t b. Menjaga kesehatan dan meningkatkan imunitas tubuh \n \t\t c. Jaga jarak aman dengan orang lain minimal 1.5 M \n \t\t d. Mencuci tangan dengan sabun atau menggunakan Hand Sanitizer \n \t\t e. Menerapkan etika batuk dan bersin \n \t\t f. Hindari Kontak dengan orang lain ketika di tempat umum \n \t\t g. Hindari menyentuh mata, hidung dan mulut \n \t\t h. Hindari bepergian keluar kecuali untuk keperluan mendesak">
                     </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n4.\tApakah antibiotik efektif mencegah atau menyembuhkan penyakit COVID-19?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak. Antibiotik hanya bekerja untuk melawan bakteri, bukan virus. Karena COVID-19 disebabkan oleh virus, maka antibiotik tidak bisa digunakan sebagai sarana pencegahan atau pengobatan. Namun, jika Anda dirawat di rumah sakit dan didiagnosis COVID-19, Anda mungkin akan diberikan antibiotik, karena seringkali terjadi infeksi sekunder yang disebabkan bakteri."
+                        android:textColor="@color/black"></TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n5.\tBagaimanakah membedakan antara sakit akibat infeksi COVID-19, dengan influenza biasa?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="
+
+Orang yang terinfeksi COVID-19 dan influenza akan mengalami gejala infeksi saluran pernafasan yang sama, seperti demam, batuk dan pilek. Walaupun gejalanya sama, tapi penyebab virusnya berbeda-beda, sehingga kita sulit mengidentifikasi masing-masing penyakit tersebut.
+
+Pemeriksaan medis yang akurat disertai rujukan pemeriksaan laboratorium sangat diperlukan untuk mengonfirmasi apakah seseorang terinfeksi COVID-19. Bagi setiap orang yang menderita demam, batuk, dan sulit bernapas sangat direkomendasikan untuk segera mencari pengobatan, dan memberitahukan petugas kesehatan jika mereka telah melakukan perjalanan dari wilayah terjangkit dalam 14 hari sebelum muncul gejala, atau jika mereka telah melakukan kontak erat dengan seseorang yang sedang menderita gejala infeksi saluran pernafasan.
+">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n6.\tBerapa lama waktu yang diperlukan sejak tertular/terinfeksi hingga muncul gejala penyakit infeksi COVID-19?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Waktu yang diperlukan sejak tertular/terinfeksi hingga muncul gejala disebut masa inkubasi. Saat ini masa inkubasi COVID-19 diperkirakan antara 1-14 hari, dan perkiraan ini dapat berubah sewaktu-waktu sesuai perkembangan kasus.">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n7.\tBisakah saya terjangkit COVID-19 dari surat atau paket kiriman dari luar negri?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Orang yang menerima paket tidak berisiko tertular virus Covid-19. Dari data virus korona sebelumnya, kita tahu bahwa jenis virus ini tidak bertahan lama pada benda mati, seperti surat atau paket.">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n8.\tBisakah saya dites jika saya merasa saya terjangkit COVID-19?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Tes untuk Covid-19 di fasilitas kesehatan milik pemerintah hanya dilakukan jika ada kemungkinan besar Anda memiliki penyakit tersebut
+
+\n\nMisalnya jika :\n
+
+\t- Anda melakukan kontak dekat dengan seseorang dengan orang yang positif Covid-19\n
+
+\t- Anda bepergian ke negara atau daerah dengan risiko Covid-19 tinggi dalam 14 hari terakhir\n\nDalam kasus ini, Anda dapat hubungi Dinas Kesehatan tanggap COVID-19 di dearah anda tinggal untuk mendapat arahan lebih lanjut. ">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:text="\n9.\tApa yang terjadi jika tenaga medis profesional menyatakan saya mungkin terjangkit COVID-19?">
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/black"
+                        android:text="Jika Anda diduga terjangkit COVID-19, Tim Tanggap COVID-19 akan mengambil beberapa sampel untuk diuji, misalnya:\n
+\ta) Lendir dari hidung, tenggorokan, atau paru-paru,\n
+\tb) dan/atau darah
+\nDan, anda akan diisolasi dari orang lain sampai dikonfirmasi apakah Anda negatif terinfeksi coronavirus.">
+                    </TextView>
+
 
                 </LinearLayout>
 
@@ -141,4 +220,5 @@
 
     </LinearLayout>
 
-</LinearLayout>
+
+</ScrollView>
